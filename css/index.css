@@ -1,0 +1,157 @@
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%
+    
+}
+
+body {
+    font-family: 'lato';
+    color: #2e3749;
+    background-color: #e8e5de;
+    font-size: 1.8rem;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 80rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.wrapper {
+    display: inline-block;
+}
+
+.notifications {
+    text-align: initial;
+    padding: 1rem;
+}
+
+.notification {
+    background-color: #fff;
+    border-radius: .5rem;
+    display: table;
+    margin: 3rem 0;
+    padding: 2.3rem 2.5rem;
+}
+
+.notification__icon {
+    display: table-cell;
+    vertical-align: middle;
+    width: 15%;
+    padding: 0 1rem;
+}
+
+.notification__description {
+    display: table-cell;
+    vertical-align: middle;
+    width: 60%;
+    padding: .5rem .1rem .5rem .5rem;
+    border-right: 1px solid #eee;
+}
+
+.notification__description h3 ,
+.notification__description p {
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.9rem;
+    font-weight: 900;
+}
+
+.def {
+    padding: .8rem 8rem 1rem 0 ;
+    word-spacing: .2rem;
+}
+
+.act__details {
+    text-decoration: none;
+    color: #f55c43;
+}
+
+.notification__action {
+    display: table-cell;
+    vertical-align: middle;
+    width: 20%;
+    padding-left: 1rem;
+    animation: fadeIn .7s ease-out 1.6s backwards;
+}
+
+.notification__action a {
+    display: inline-block;
+}
+
+.notification__action a:last-child {
+    margin-top: 1.4rem;
+}
+
+.btn {
+    color: inherit;
+    padding: .8rem 4rem;
+    text-decoration: none;
+    border-radius: 100px;
+    border: 1px solid;
+}
+
+.btn--close {
+    border: 1px solid #d9d9d9;
+}
+
+.btn--okey {
+    border: 1px solid #f55c43;
+    background-color: #f55c43;
+    color: #fff;
+    box-shadow: 0 1rem 2rem rgba(0,0,0, .15);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.container {
+    max-width: 80rem;
+    margin: 0 auto;
+    text-align: center;
+}
+/*
+.wrapper {
+    display: inline-block;
+}
+/*
+.notifications {
+    vertical-align: initial;
+    padding: 1rem;
+}
+/*
+.notification {
+    background-color: #fff;
+    border-radius: .5rem;
+    margin: 3rem 0;
+    padding: initial;
+}
+
